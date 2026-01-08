@@ -150,6 +150,6 @@ I build games across multiple stacks—rapid prototyping to custom engines.
 ## Contact
 
 - Email: kynmmarshall@gmail.com
-- Open to collaboration—reach out for mobile, web, backend, or engine projects.
+- Open to collaboration—reach out for mobile, web, backend, or Windows projects.
 
 ---
