@@ -1,0 +1,46 @@
+name: Update README Stats Images
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # daily at 01:00 UTC (adjust if needed)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Create assets folder
+        run: mkdir -p assets/stats
+
+      - name: Download GitHub Stats
+        run: |
+          curl -sSL -o assets/stats/github-stats.svg "https://github-readme-stats.vercel.app/api?username=Kynmmarshall&show_icons=true&hide_border=true&theme=github_dark"
+
+      - name: Download Top Languages
+        run: |
+          curl -sSL -o assets/stats/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=Kynmmarshall&layout=compact&langs_count=10&hide_border=true&theme=github_dark"
+
+      - name: Download Streak
+        run: |
+          curl -sSL -o assets/stats/streak.svg "https://streak-stats.demolab.com?user=Kynmmarshall&theme=github-dark-blue&hide_border=true"
+
+      - name: Commit images if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to images"
+          else
+            git commit -m "chore: update generated stats images [skip ci]"
+            git push origin HEAD:main
+          fi
