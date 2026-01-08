@@ -2,7 +2,7 @@ name: Update README Stats Images
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # daily at 01:00 UTC (adjust if needed)
+    - cron: "0 1 * * *"   # daily
   workflow_dispatch:
 
 permissions:
