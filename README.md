@@ -111,18 +111,7 @@ I build games across multiple stacks—rapid prototyping to custom engines.
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kynmmarshall&show_icons=true&hide_border=true&theme=github_dark" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Kynmmarshall&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kynmmarshall&layout=compact&langs_count=10&hide_border=true&theme=github_dark" alt="Top Languages" />
-</p>
-
+<p align="center"> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" alt="GitHub Stats" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" alt="Top Languages" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" alt="GitHub Streak" /> </p>
 ---
 
 ## Contribution Graph (Animated)
