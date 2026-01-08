@@ -114,7 +114,7 @@ I build games across multiple stacks—rapid prototyping to custom engines.
 <p align="center"> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" alt="GitHub Stats" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" alt="Top Languages" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" alt="GitHub Streak" /> </p>
 ---
 
-## Contribution Graph (Animated)
+## Contribution Graph
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/contributions-dark.svg" alt="Contribution Snake (Dark)" />
