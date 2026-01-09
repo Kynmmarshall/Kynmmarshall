@@ -2,7 +2,7 @@ name: Update README Stats Images
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # daily at 01:00 UTC
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,14 +12,12 @@ jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Create assets folder
-        run: mkdir -p assets/stats
+      - run: mkdir -p assets/stats
 
       - name: Download GitHub Stats
         run: |
@@ -33,19 +31,27 @@ jobs:
         run: |
           curl -sSL -o assets/stats/streak.svg "https://streak-stats.demolab.com?user=Kynmmarshall&theme=github-dark-blue&hide_border=true"
 
-      - name: Validate SVGs
+      - name: Validate SVG files
+        id: validate
         run: |
+          ok=true
           for f in assets/stats/*.svg; do
-            echo "Checking $f"
-            head -n 2 "$f" || true
-            echo "----"
+            head=$(head -n 1 "$f" | tr -d '\r\n' || true)
+            if [[ "$head" =~ ^\<\?xml ]] || [[ "$head" =~ ^\<svg ]]; then
+              echo "$f is valid"
+            else
+              echo "::warning file=$f::Not valid SVG (starts with: $head)"
+              ok=false
+            fi
           done
+          echo "valid=$ok" >> $GITHUB_OUTPUT
 
-      - name: Commit images if changed
+      - name: Commit and push if valid
+        if: steps.validate.outputs.valid == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats/*.svg || true
+          git add assets/stats/*.svg
           if git diff --cached --quiet; then
             echo "No changes to images"
           else
