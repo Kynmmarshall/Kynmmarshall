@@ -51,7 +51,7 @@
 
 ---
 
-## 🎮 Games & Engines (visual, minimal)
+## 🎮 Games & Engines
 - 🔥 Flame (Flutter) — fast mobile game loops, components & native bridges  
 - 🐍 Pygame — rapid 2D prototypes and gameplay logic  
 - 🖼 graphics.h / C — low-level rendering prototyping (learning rendering fundamentals)  
@@ -60,7 +60,7 @@
 
 ---
 
-## ⚙️ DevOps & Hosting (short)
+## ⚙️ DevOps & Hosting 
 - ⚡ CI/CD: automated builds, tests, linters, and deployment pipelines (Jenkins / GitHub Actions)  
 - 🧪 Testing: unit, integration and smoke tests wired into pipelines  
 - 📦 Release automation: build artifacts, versioning, native packaging  
