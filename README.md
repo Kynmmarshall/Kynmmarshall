@@ -76,7 +76,11 @@
 
 ## GitHub Stats
 
-<p align="center"> <img src="https://img.shields.io/badge/Stats-Unavailable-lightgrey" alt="GitHub Stats (unavailable)" /> <img src="https://img.shields.io/badge/Top-Langs-Unavailable-lightgrey" alt="Top Languages (unavailable)" /> <img src="https://img.shields.io/badge/Streak-Unavailable-lightgrey" alt="Streak (unavailable)" /> </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" alt="GitHub Streak" />
+</p>
 
 ## Contribution Graph (Animated)
 
