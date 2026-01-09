@@ -1,16 +1,31 @@
-# 👋 Hi — I'm Kynmmarshall
+<h1 align="center">Hi, I'm Kynmmarshall 👋</h1>
 
-A concise, visual summary of my skills and stacks — focused on apps, games, and production-ready systems.  
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?lines=Software+Engineer;Full-stack+Developer;Flutter+%7C+Dart;Python+%7C+C%2B%2B;JavaScript+%7C+Node.js;Game+Developer%3A+Flame%2C+Pygame%2C+graphics.h;Open+Source+Contributor&center=true&width=1000&size=24&pause=500&color=2F81F7" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="mailto:kynmmarshall@gmail.com"><img src="https://img.shields.io/badge/Email-kynmmarshall%40gmail.com-2F81F7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Kynmmarshall&style=for-the-badge&color=2F81F7" alt="Profile Views" />
+</p>
 
 ---
 
-## 🚀 Quick Pitch
-- Software engineer — mobile, web, backend, and games.  
-- Strong in performance, rendering, and developer workflows (CI/CD, automation, hosting).  
+## About Me
+
+- Passionate software engineer focused on building performant, user-centric applications across mobile, web, backend, and games.
+- Interests: game engines, real-time graphics, clean architecture, and polished UI/UX.
+- Currently leveling up in Python, Java, and C++ while shipping production-grade Flutter and JavaScript projects.
+- Collaboration-friendly: open to partnering on impactful projects.
+- Pronouns: Mr
+- Reach me: kynmmarshall@gmail.com
 
 ---
 
 ## 🧰 Tech Snapshot
+<p align="left">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flut## 🧰 Tech Snapshot
 <p align="left">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart" />
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter" />
@@ -59,6 +74,31 @@ A concise, visual summary of my skills and stacks — focused on apps, games, an
 - 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
 - 👀 Want GIFs/screenshots for games? Add assets/gifs to repos and I’ll embed them here for a visual showcase.
 
+## GitHub Stats
+
+<p align="center"> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" alt="GitHub Stats" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" alt="Top Languages" /> <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" alt="GitHub Streak" /> </p>
 ---
 
-*Short, visual, and ready for copy/paste — placed at the top of README as requested.*
+## Contribution Graph (Animated)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/contributions-dark.svg" alt="Contribution Snake (Dark)" />
+</p>
+
+---
+
+## What I’m Building Next
+
+- Production-ready Flutter apps with native modules (Flame where appropriate).
+- Clean, testable backend services in Node.js.
+- Performance-oriented C++ modules and graphics exploration.
+- Continual improvement of developer experience with robust tooling and automation.
+
+---
+
+## Contact
+
+- Email: kynmmarshall@gmail.com
+- Open to collaboration—reach out for mobile, web, backend, or Windows projects.
+
+---
