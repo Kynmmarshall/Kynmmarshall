@@ -1,9 +1,9 @@
-// Simple script that fetches GitHub data and writes three basic SVGs into assets/stats/
-// Uses built-in fetch (Node 18+) and no external deps.
-// Expects env.GITHUB_TOKEN and env.GITHUB_USER to be set.
+// .github/tools/generate_stats.js
+// CommonJS version that works when run with `node file.js`
+// Uses global fetch available in Node 18+ and no external deps.
 
-import fs from "fs";
-import path from "path";
+const fs = require("fs");
+const path = require("path");
 
 const TOKEN = process.env.GITHUB_TOKEN;
 const USER = process.env.GITHUB_USER || "Kynmmarshall";
@@ -15,13 +15,13 @@ if (!TOKEN) {
 const API = "https://api.github.com";
 const GQL = "https://api.github.com/graphql";
 
-async function rest(path) {
-  const res = await fetch(API + path, {
+async function rest(endpoint) {
+  const res = await fetch(API + endpoint, {
     headers: { Authorization: `bearer ${TOKEN}`, "User-Agent": "github-actions" },
   });
   if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`REST ${path} failed: ${res.status}\n${text}`);
+    const text = await res.text().catch(() => "<no body>");
+    throw new Error(`REST ${endpoint} failed: ${res.status}\n${text}`);
   }
   return res.json();
 }
@@ -60,13 +60,13 @@ async function generate() {
 
   // 2) Get repos (first page; if you have >100 repos you can paginate)
   const repos = await rest(`/users/${USER}/repos?per_page=100&type=owner&sort=updated`);
-  const repoCount = repos.length;
+  const repoCount = Array.isArray(repos) ? repos.length : 0;
 
   // 3) Total stars and language bytes (summed)
   let totalStars = 0;
   const langBytes = {}; // language -> bytes
 
-  for (const r of repos) {
+  for (const r of repos || []) {
     totalStars += r.stargazers_count || 0;
     try {
       const langs = await rest(`/repos/${USER}/${r.name}/languages`);
@@ -74,7 +74,6 @@ async function generate() {
         langBytes[lang] = (langBytes[lang] || 0) + bytes;
       }
     } catch (e) {
-      // ignore repo errors
       console.warn("langs fetch failed for", r.name, e.message);
     }
   }
@@ -102,8 +101,8 @@ async function generate() {
     }
   }`;
   const data = await graphql(query, { login: USER });
-  const weeks = data.user.contributionsCollection.contributionCalendar.weeks || [];
-  const days = weeks.flatMap(w => w.contributionDays || []);
+  const weeks = (data && data.user && data.user.contributionsCollection && data.user.contributionsCollection.contributionCalendar && data.user.contributionsCollection.contributionCalendar.weeks) || [];
+  const days = weeks.flatMap(w => (w.contributionDays || []));
   // compute current streak (consecutive days up to today with >0)
   days.sort((a, b) => new Date(a.date) - new Date(b.date));
   let currentStreak = 0;
@@ -119,7 +118,7 @@ async function generate() {
   }
   best = Math.max(best, runner);
 
-  const totalContribs = data.user.contributionsCollection.contributionCalendar.totalContributions || 0;
+  const totalContribs = (data && data.user && data.user.contributionsCollection && data.user.contributionsCollection.contributionCalendar && data.user.contributionsCollection.contributionCalendar.totalContributions) || 0;
 
   // Build stats SVG (simple)
   const statsContent = `
