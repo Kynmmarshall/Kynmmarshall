@@ -94,7 +94,7 @@
     <br />
     <strong>Ninja Game</strong>
   </a>
-</p>">
+</p>
 
 ---
 
