@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill:#2f363d; }
+    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill:#ffffff; }
     .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill:#57606a; }
-    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill:#111827; }
+    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill:#ffffff; }
   </style>
   
     <text x="20" y="30" class="title">Contribution Streak</text>
