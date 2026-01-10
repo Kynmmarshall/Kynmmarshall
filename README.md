@@ -59,24 +59,43 @@
 - 🗺 Tiled — map design + tile-based level workflows
 
 <!-- Row 1 -->
-<p>
-  <img alt="Fruit collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
+<p align="center">
+  <a href="<!-- Row 1 -->
+<p align="center">
+  <a href="https://github.com/Kynmmarshall/MobileGame">
+    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
+    <br />
+    <strong>Fruit Collector</strong>
+  </a>
 </p>
 
 <!-- Row 2 -->
-<p>
-  <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
+<p align="center">
+  <a href="https://github.com/Kynmmarshall/MATH-RUNNER">
+    <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
+    <br />
+    <strong>Math Runner</strong>
+  </a>
 </p>
 
 <!-- Row 3 -->
-<p>
-  <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
+<p align="center">
+  <a href="https://github.com/Kynmmarshall/PlaneGame">
+    <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
+    <br />
+    <strong>Plane Game</strong>
+  </a>
 </p>
 
 <!-- Row 4 -->
-<p>
-  <img alt="NInja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
-</p>
+<p align="center">
+  <a href="https://github.com/Kynmmarshall/ninjagame">
+    <img alt="Ninja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
+    <br />
+    <strong>Ninja Game</strong>
+  </a>
+</p>">
+
 ---
 
 ## ⚙️ DevOps & Hosting 
