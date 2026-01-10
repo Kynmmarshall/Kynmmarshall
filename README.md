@@ -82,8 +82,6 @@
     <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
     
 </p>
-<br />  
-<br /> 
 <!-- Row 2 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/MATH-RUNNER">
