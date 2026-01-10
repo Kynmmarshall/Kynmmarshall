@@ -73,6 +73,9 @@
 ## ✨ Visual Contact & CTA
 - 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
 - 👀 GIFs of games
+  <p>
+  <img alt="Fruit collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
+  </p>
   <!-- Row 1 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/MobileGame">
