@@ -109,10 +109,10 @@
 <!-- Row 4 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/ninjagame">
-    <img alt="Ninja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
     <br />
     <strong>Ninja Game</strong>
-  </a>
+    </a>
+    <img alt="Ninja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
 </p>
 
 ---
