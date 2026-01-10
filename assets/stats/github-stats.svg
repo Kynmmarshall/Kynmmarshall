@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill:#2f363d; }
+    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill:#57606a; }
+    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill:#111827; }
+  </style>
+  
+    <text x="20" y="30" class="title">GitHub Summary — Kynmmarshall</text>
+    <text x="20" y="60" class="label">Followers</text>
+    <text x="140" y="60" class="value">6</text>
+
+    <text x="20" y="85" class="label">Public repos</text>
+    <text x="140" y="85" class="value">25</text>
+
+    <text x="260" y="60" class="label">Total stars</text>
+    <text x="380" y="60" class="value">26</text>
+
+    <text x="260" y="85" class="label">Total contributions (last year)</text>
+    <text x="560" y="85" class="value">985</text>
+  
+</svg>
