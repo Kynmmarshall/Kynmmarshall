@@ -73,9 +73,6 @@
 ## ✨ Visual Contact & CTA
 - 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
 - 👀 GIFs of games
-  <p>
-  <img alt="Fruit collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
-  </p>
   <!-- Row 1 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/MobileGame">
@@ -85,25 +82,30 @@
     <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
     
 </p>
-
+<br />  
+<br /> 
 <!-- Row 2 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/MATH-RUNNER">
-    <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
     <br />
     <strong>Math Runner</strong>
   </a>
+    <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
+    
 </p>
-
+<br /> 
+<br /> 
 <!-- Row 3 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/PlaneGame">
-    <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
     <br />
     <strong>Plane Game</strong>
   </a>
+    <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
+    
 </p>
-
+<br /> 
+<br /> 
 <!-- Row 4 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/ninjagame">
