@@ -77,12 +77,13 @@
   <img alt="Fruit collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
   </p>
   <!-- Row 1 -->
-<p>
+<p align="center">
   <a href="https://github.com/Kynmmarshall/MobileGame">
-    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
-    <br />
     <strong>Fruit Collector</strong>
+    <br />  
   </a>
+    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
+    
 </p>
 
 <!-- Row 2 -->
