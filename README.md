@@ -58,6 +58,25 @@
 - 🎛 Custom C++ Engine (OpenGL / GLSL) — shaders, batching, asset handling  
 - 🗺 Tiled — map design + tile-based level workflows
 
+<!-- Row 1 -->
+<p>
+  <img alt="Fruit collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
+</p>
+
+<!-- Row 2 -->
+<p>
+  <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
+</p>
+
+<!-- Row 3 -->
+<p>
+  <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
+</p>
+
+<!-- Row 4 -->
+<p>
+  <img alt="NInja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
+</p>
 ---
 
 ## ⚙️ DevOps & Hosting 
