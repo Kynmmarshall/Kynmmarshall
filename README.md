@@ -78,10 +78,8 @@
   <a href="https://github.com/Kynmmarshall/MobileGame">
     <strong>Fruit Collector</strong>
     <br />  
-    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />
   </a>
-    
-    
+    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/fruitcollector.gif" width="720" />   
 </p>
 <!-- Row 2 -->
 <p align="center">
