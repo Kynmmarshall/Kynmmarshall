@@ -87,28 +87,27 @@
   <a href="https://github.com/Kynmmarshall/MATH-RUNNER">
     <br />
     <strong>Math Runner</strong>
+    <br />
   </a>
     <img alt="Math Runner" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/mathrunner.gif" width="720" />
     
 </p>
-<br /> 
-<br /> 
 <!-- Row 3 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/PlaneGame">
     <br />
     <strong>Plane Game</strong>
+    <br />
   </a>
     <img alt="Plane Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/planegame.gif" width="720" />
     
 </p>
-<br /> 
-<br /> 
 <!-- Row 4 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/ninjagame">
     <br />
     <strong>Ninja Game</strong>
+    <br />
     </a>
     <img alt="Ninja Game" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/ninjagame.gif" width="720" />
 </p>
