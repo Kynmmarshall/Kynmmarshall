@@ -58,7 +58,22 @@
 - 🎛 Custom C++ Engine (OpenGL / GLSL) — shaders, batching, asset handling  
 - 🗺 Tiled — map design + tile-based level workflows
 
-<!-- Row 1 -->
+---
+
+## ⚙️ DevOps & Hosting 
+- ⚡ CI/CD: automated builds, tests, linters, and deployment pipelines (Jenkins / GitHub Actions)  
+- 🧪 Testing: unit, integration and smoke tests wired into pipelines  
+- 📦 Release automation: build artifacts, versioning, native packaging  
+- 📊 Observability: centralized logs, basic metrics and alerting for services  
+- 🖥 VPS & Hosting: provisioning and configuring VPS for web/backends, DB setup (secure configs), and static hosting  
+- 🔐 Ops skills: service deployment, backups, basic security hardening, and automation via scripts
+
+---
+
+## ✨ Visual Contact & CTA
+- 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
+- 👀 GIFs of games
+  <!-- Row 1 -->
 <p align="center">
   <a href="<!-- Row 1 -->
 <p align="center">
@@ -97,20 +112,6 @@
 </p>
 
 ---
-
-## ⚙️ DevOps & Hosting 
-- ⚡ CI/CD: automated builds, tests, linters, and deployment pipelines (Jenkins / GitHub Actions)  
-- 🧪 Testing: unit, integration and smoke tests wired into pipelines  
-- 📦 Release automation: build artifacts, versioning, native packaging  
-- 📊 Observability: centralized logs, basic metrics and alerting for services  
-- 🖥 VPS & Hosting: provisioning and configuring VPS for web/backends, DB setup (secure configs), and static hosting  
-- 🔐 Ops skills: service deployment, backups, basic security hardening, and automation via scripts
-
----
-
-## ✨ Visual Contact & CTA
-- 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
-- 👀 Want GIFs/screenshots for games? Add assets/gifs to repos and I’ll embed them here for a visual showcase.
 
 ## GitHub Stats
 
