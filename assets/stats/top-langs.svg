@@ -35,11 +35,11 @@
   <text x="20" y="24" class="title">Top Languages</text>
       <text x="20" y="44" class="label">HTML</text>
       <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">41.3%</text>
+      <text x="530" y="44" class="value">41.2%</text>
     
       <text x="20" y="68" class="label">Dart</text>
-      <rect class="bar round" x="120" y="56" width="180" height="12" />
-      <text x="310" y="68" class="value">18.6%</text>
+      <rect class="bar round" x="120" y="56" width="182" height="12" />
+      <text x="312" y="68" class="value">18.7%</text>
     
       <text x="20" y="92" class="label">TeX</text>
       <rect class="bar round" x="120" y="80" width="125" height="12" />
