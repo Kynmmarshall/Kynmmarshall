@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">GitHub stats</title>
   <style>
-    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill:#2f363d; }
-    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill:#57606a; }
-    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill:#111827; }
+    /* Default (light) theme variables */
+    :root{
+      --bg: transparent;
+      --title: #0f172a;   /* dark title for light background */
+      --label: #4b5563;   /* muted label for light background */
+      --value: #0f172a;   /* dark values for light background */
+      --bar: #2b8be6;     /* bar color for light theme */
+      --bar-accent: #1d4ed8;
+    }
+
+    /* Dark theme overrides */
+    @media (prefers-color-scheme: dark) {
+      :root{
+        --bg: transparent;
+        --title: #ffffff;  /* white for dark background */
+        --label: #d1d5db;  /* light gray for dark background */
+        --value: #ffffff;  /* white values for dark background */
+        --bar: #60a5fa;    /* lighter blue for dark theme */
+        --bar-accent: #3b82f6;
+      }
+    }
+
+    svg { background: var(--bg); }
+    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill: var(--title); }
+    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill: var(--label); }
+    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill: var(--value); }
+    .bar { fill: var(--bar); }
+    .bar-accent { fill: var(--bar-accent); }
+    rect.round { rx: 3; ry: 3; }
   </style>
   
     <text x="20" y="30" class="title">GitHub Summary — Kynmmarshall</text>
@@ -17,6 +44,6 @@
     <text x="380" y="60" class="value">26</text>
 
     <text x="260" y="85" class="label">Total contributions (last year)</text>
-    <text x="560" y="85" class="value">990</text>
+    <text x="560" y="85" class="value">1010</text>
   
 </svg>

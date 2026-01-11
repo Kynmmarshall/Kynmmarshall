@@ -37,13 +37,45 @@ async function graphql(query, variables = {}) {
   return data.data;
 }
 
+/*
+  svgWrap now produces adaptive SVGs that switch colors for light/dark themes
+  using CSS variables and the prefers-color-scheme media query. This lets the
+  same SVG display well on both light and dark README backgrounds.
+*/
 function svgWrap(content, width = 680, height = 120) {
   return `<?xml version="1.0" encoding="utf-8"?>
-<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">GitHub stats</title>
   <style>
-    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill:#2f363d; }
-    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill:#57606a; }
-    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill:#111827; }
+    /* Default (light) theme variables */
+    :root{
+      --bg: transparent;
+      --title: #0f172a;   /* dark title for light background */
+      --label: #4b5563;   /* muted label for light background */
+      --value: #0f172a;   /* dark values for light background */
+      --bar: #2b8be6;     /* bar color for light theme */
+      --bar-accent: #1d4ed8;
+    }
+
+    /* Dark theme overrides */
+    @media (prefers-color-scheme: dark) {
+      :root{
+        --bg: transparent;
+        --title: #ffffff;  /* white for dark background */
+        --label: #d1d5db;  /* light gray for dark background */
+        --value: #ffffff;  /* white values for dark background */
+        --bar: #60a5fa;    /* lighter blue for dark theme */
+        --bar-accent: #3b82f6;
+      }
+    }
+
+    svg { background: var(--bg); }
+    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill: var(--title); }
+    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill: var(--label); }
+    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill: var(--value); }
+    .bar { fill: var(--bar); }
+    .bar-accent { fill: var(--bar-accent); }
+    rect.round { rx: 3; ry: 3; }
   </style>
   ${content}
 </svg>`;
@@ -139,19 +171,20 @@ async function generate() {
 
   // Build top-langs SVG
   const maxBytes = topLangs.length ? topLangs[0][1] : 1;
+  const totalBytes = Object.values(langBytes).reduce((a,b)=>a+b,0) || 1;
   let langRects = `<text x="20" y="24" class="title">Top Languages</text>`;
-  let y = 40;
+  let y = 44;
   for (const [lang, bytes] of topLangs) {
     const w = Math.round((bytes / maxBytes) * 400);
-    const pct = ((bytes / (Object.values(langBytes).reduce((a,b)=>a+b,0) || 1)) * 100).toFixed(1);
+    const pct = ((bytes / totalBytes) * 100).toFixed(1);
     langRects += `
       <text x="20" y="${y}" class="label">${safeString(lang)}</text>
-      <rect x="120" y="${y-12}" width="${w}" height="12" fill="#2b8be6" rx="3" />
+      <rect class="bar round" x="120" y="${y-12}" width="${w}" height="12" />
       <text x="${130 + w}" y="${y}" class="value">${pct}%</text>
     `;
     y += 24;
   }
-  const topLangsSVG = svgWrap(langRects, 720, Math.max(80, y + 10));
+  const topLangsSVG = svgWrap(langRects, 720, Math.max(110, y + 10));
 
   // Build streak SVG
   const streakContent = `
