@@ -38,8 +38,8 @@
       <text x="530" y="44" class="value">40.7%</text>
     
       <text x="20" y="68" class="label">Dart</text>
-      <rect class="bar round" x="120" y="56" width="182" height="12" />
-      <text x="312" y="68" class="value">18.5%</text>
+      <rect class="bar round" x="120" y="56" width="185" height="12" />
+      <text x="315" y="68" class="value">18.8%</text>
     
       <text x="20" y="92" class="label">TeX</text>
       <rect class="bar round" x="120" y="80" width="138" height="12" />
@@ -50,11 +50,11 @@
       <text x="254" y="116" class="value">12.6%</text>
     
       <text x="20" y="140" class="label">C++</text>
-      <rect class="bar round" x="120" y="128" width="79" height="12" />
-      <text x="209" y="140" class="value">8.0%</text>
+      <rect class="bar round" x="120" y="128" width="77" height="12" />
+      <text x="207" y="140" class="value">7.8%</text>
     
       <text x="20" y="164" class="label">CMake</text>
-      <rect class="bar round" x="120" y="152" width="25" height="12" />
-      <text x="155" y="164" class="value">2.5%</text>
+      <rect class="bar round" x="120" y="152" width="22" height="12" />
+      <text x="152" y="164" class="value">2.3%</text>
     
 </svg>
