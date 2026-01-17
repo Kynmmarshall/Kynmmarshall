@@ -39,7 +39,7 @@
     
       <text x="20" y="68" class="label">Dart</text>
       <rect class="bar round" x="120" y="56" width="185" height="12" />
-      <text x="315" y="68" class="value">18.8%</text>
+      <text x="315" y="68" class="value">18.9%</text>
     
       <text x="20" y="92" class="label">TeX</text>
       <rect class="bar round" x="120" y="80" width="138" height="12" />
