@@ -43,7 +43,7 @@
     
       <text x="20" y="92" class="label">TeX</text>
       <rect class="bar round" x="120" y="80" width="138" height="12" />
-      <text x="268" y="92" class="value">14.0%</text>
+      <text x="268" y="92" class="value">14.1%</text>
     
       <text x="20" y="116" class="label">Python</text>
       <rect class="bar round" x="120" y="104" width="124" height="12" />
