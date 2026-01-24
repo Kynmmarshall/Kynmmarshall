@@ -35,7 +35,7 @@
   
     <text x="20" y="30" class="title">Contribution Streak</text>
     <text x="20" y="60" class="label">Current streak</text>
-    <text x="160" y="60" class="value">2 days</text>
+    <text x="160" y="60" class="value">0 days</text>
 
     <text x="20" y="90" class="label">Best streak</text>
     <text x="160" y="90" class="value">32 days</text>
