@@ -35,26 +35,26 @@
   <text x="20" y="24" class="title">Top Languages</text>
       <text x="20" y="44" class="label">HTML</text>
       <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">40.0%</text>
+      <text x="530" y="44" class="value">39.0%</text>
     
       <text x="20" y="68" class="label">Dart</text>
-      <rect class="bar round" x="120" y="56" width="204" height="12" />
-      <text x="334" y="68" class="value">20.4%</text>
+      <rect class="bar round" x="120" y="56" width="222" height="12" />
+      <text x="352" y="68" class="value">21.6%</text>
     
       <text x="20" y="92" class="label">TeX</text>
       <rect class="bar round" x="120" y="80" width="130" height="12" />
-      <text x="260" y="92" class="value">13.0%</text>
+      <text x="260" y="92" class="value">12.7%</text>
     
       <text x="20" y="116" class="label">Python</text>
       <rect class="bar round" x="120" y="104" width="117" height="12" />
-      <text x="247" y="116" class="value">11.7%</text>
+      <text x="247" y="116" class="value">11.4%</text>
     
       <text x="20" y="140" class="label">C++</text>
-      <rect class="bar round" x="120" y="128" width="83" height="12" />
-      <text x="213" y="140" class="value">8.3%</text>
+      <rect class="bar round" x="120" y="128" width="88" height="12" />
+      <text x="218" y="140" class="value">8.6%</text>
     
       <text x="20" y="164" class="label">CMake</text>
-      <rect class="bar round" x="120" y="152" width="29" height="12" />
-      <text x="159" y="164" class="value">2.9%</text>
+      <rect class="bar round" x="120" y="152" width="33" height="12" />
+      <text x="163" y="164" class="value">3.3%</text>
     
 </svg>
