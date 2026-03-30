@@ -33,28 +33,28 @@
     rect.round { rx: 3; ry: 3; }
   </style>
   <text x="20" y="24" class="title">Top Languages</text>
-      <text x="20" y="44" class="label">HTML</text>
+      <text x="20" y="44" class="label">Python</text>
       <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">33.0%</text>
+      <text x="530" y="44" class="value">59.8%</text>
     
-      <text x="20" y="68" class="label">Dart</text>
-      <rect class="bar round" x="120" y="56" width="304" height="12" />
-      <text x="434" y="68" class="value">25.1%</text>
+      <text x="20" y="68" class="label">HTML</text>
+      <rect class="bar round" x="120" y="56" width="156" height="12" />
+      <text x="286" y="68" class="value">23.3%</text>
     
-      <text x="20" y="92" class="label">Python</text>
-      <rect class="bar round" x="120" y="80" width="186" height="12" />
-      <text x="316" y="92" class="value">15.4%</text>
+      <text x="20" y="92" class="label">Dart</text>
+      <rect class="bar round" x="120" y="80" width="48" height="12" />
+      <text x="178" y="92" class="value">7.2%</text>
     
       <text x="20" y="116" class="label">TeX</text>
-      <rect class="bar round" x="120" y="104" width="124" height="12" />
-      <text x="254" y="116" class="value">10.3%</text>
+      <rect class="bar round" x="120" y="104" width="20" height="12" />
+      <text x="150" y="116" class="value">3.0%</text>
     
       <text x="20" y="140" class="label">C++</text>
-      <rect class="bar round" x="120" y="128" width="84" height="12" />
-      <text x="214" y="140" class="value">7.0%</text>
+      <rect class="bar round" x="120" y="128" width="13" height="12" />
+      <text x="143" y="140" class="value">2.0%</text>
     
-      <text x="20" y="164" class="label">CMake</text>
-      <rect class="bar round" x="120" y="152" width="32" height="12" />
-      <text x="162" y="164" class="value">2.6%</text>
+      <text x="20" y="164" class="label">C</text>
+      <rect class="bar round" x="120" y="152" width="12" height="12" />
+      <text x="142" y="164" class="value">1.8%</text>
     
 </svg>
