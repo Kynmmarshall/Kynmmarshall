@@ -46,8 +46,8 @@
       <text x="178" y="92" class="value">7.1%</text>
     
       <text x="20" y="116" class="label">TeX</text>
-      <rect class="bar round" x="120" y="104" width="20" height="12" />
-      <text x="150" y="116" class="value">2.9%</text>
+      <rect class="bar round" x="120" y="104" width="19" height="12" />
+      <text x="149" y="116" class="value">2.9%</text>
     
       <text x="20" y="140" class="label">C++</text>
       <rect class="bar round" x="120" y="128" width="13" height="12" />
