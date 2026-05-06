@@ -35,15 +35,15 @@
   <text x="20" y="24" class="title">Top Languages</text>
       <text x="20" y="44" class="label">Python</text>
       <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">59.5%</text>
+      <text x="530" y="44" class="value">59.6%</text>
     
       <text x="20" y="68" class="label">HTML</text>
-      <rect class="bar round" x="120" y="56" width="150" height="12" />
-      <text x="280" y="68" class="value">22.3%</text>
+      <rect class="bar round" x="120" y="56" width="149" height="12" />
+      <text x="279" y="68" class="value">22.3%</text>
     
       <text x="20" y="92" class="label">Dart</text>
       <rect class="bar round" x="120" y="80" width="55" height="12" />
-      <text x="185" y="92" class="value">8.2%</text>
+      <text x="185" y="92" class="value">8.1%</text>
     
       <text x="20" y="116" class="label">TeX</text>
       <rect class="bar round" x="120" y="104" width="19" height="12" />
@@ -54,7 +54,7 @@
       <text x="144" y="140" class="value">2.1%</text>
     
       <text x="20" y="164" class="label">C</text>
-      <rect class="bar round" x="120" y="152" width="12" height="12" />
-      <text x="142" y="164" class="value">1.7%</text>
+      <rect class="bar round" x="120" y="152" width="11" height="12" />
+      <text x="141" y="164" class="value">1.7%</text>
     
 </svg>
