@@ -38,12 +38,12 @@
     <text x="140" y="60" class="value">8</text>
 
     <text x="20" y="85" class="label">Public repos</text>
-    <text x="140" y="85" class="value">41</text>
+    <text x="140" y="85" class="value">42</text>
 
     <text x="260" y="60" class="label">Total stars</text>
     <text x="380" y="60" class="value">48</text>
 
     <text x="260" y="85" class="label">Total contributions (last year)</text>
-    <text x="560" y="85" class="value">1675</text>
+    <text x="560" y="85" class="value">1680</text>
   
 </svg>
