@@ -47,7 +47,7 @@
     
       <text x="20" y="116" class="label">TypeScript</text>
       <rect class="bar round" x="120" y="104" width="30" height="12" />
-      <text x="160" y="116" class="value">4.2%</text>
+      <text x="160" y="116" class="value">4.1%</text>
     
       <text x="20" y="140" class="label">TeX</text>
       <rect class="bar round" x="120" y="128" width="19" height="12" />
