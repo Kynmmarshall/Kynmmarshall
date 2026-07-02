@@ -38,12 +38,12 @@
       <text x="530" y="44" class="value">55.1%</text>
     
       <text x="20" y="68" class="label">HTML</text>
-      <rect class="bar round" x="120" y="56" width="151" height="12" />
-      <text x="281" y="68" class="value">20.8%</text>
+      <rect class="bar round" x="120" y="56" width="150" height="12" />
+      <text x="280" y="68" class="value">20.7%</text>
     
       <text x="20" y="92" class="label">Dart</text>
-      <rect class="bar round" x="120" y="80" width="70" height="12" />
-      <text x="200" y="92" class="value">9.6%</text>
+      <rect class="bar round" x="120" y="80" width="71" height="12" />
+      <text x="201" y="92" class="value">9.7%</text>
     
       <text x="20" y="116" class="label">TypeScript</text>
       <rect class="bar round" x="120" y="104" width="30" height="12" />
