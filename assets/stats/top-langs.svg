@@ -35,15 +35,15 @@
   <text x="20" y="24" class="title">Top Languages</text>
       <text x="20" y="44" class="label">Python</text>
       <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">53.8%</text>
+      <text x="530" y="44" class="value">53.4%</text>
     
       <text x="20" y="68" class="label">HTML</text>
-      <rect class="bar round" x="120" y="56" width="154" height="12" />
-      <text x="284" y="68" class="value">20.7%</text>
+      <rect class="bar round" x="120" y="56" width="158" height="12" />
+      <text x="288" y="68" class="value">21.1%</text>
     
       <text x="20" y="92" class="label">Dart</text>
-      <rect class="bar round" x="120" y="80" width="79" height="12" />
-      <text x="209" y="92" class="value">10.7%</text>
+      <rect class="bar round" x="120" y="80" width="82" height="12" />
+      <text x="212" y="92" class="value">10.9%</text>
     
       <text x="20" y="116" class="label">TypeScript</text>
       <rect class="bar round" x="120" y="104" width="30" height="12" />
