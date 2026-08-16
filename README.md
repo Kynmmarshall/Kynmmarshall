@@ -73,6 +73,14 @@
 ## ✨ Visual Contact & CTA
 - 📫 kynmmarshall@gmail.com — collab, freelance, or open roles  
 - 👀 GIFs of games
+  <!-- Row 0 -->
+<p align="center">
+  <a href="https://github.com/Kynmmarshall/Grid_Survival">
+    <strong>Grid Survival</strong>
+    <br />  
+  </a>
+    <img alt="Fruit Collector" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/gifs/Grid-survival.gif" width="720" />   
+</p>
   <!-- Row 1 -->
 <p align="center">
   <a href="https://github.com/Kynmmarshall/MobileGame">
