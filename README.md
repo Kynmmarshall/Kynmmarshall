@@ -49,6 +49,9 @@
   <img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge" />
   <img src="https://img.shields.io/badge/graphics.h-00599C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Tiled-6EA3E6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/UML-FABD14?style=for-the-badge&logo=uml&logoColor=black" />
 </p>
 
 ---
