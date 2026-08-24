@@ -31,6 +31,9 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&logo=javascript" />
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus" />
   <img src="https://img.shields.io/badge/GLSL-1D1D1D?style=for-the-badge" />
