@@ -19,6 +19,7 @@
 - Collaboration-friendly: open to partnering on impactful projects.
 - Pronouns: Mr
 - Reach me: kynmmarshall@gmail.com
+- Portfolio: https://kynmmarshall.is-a.dev
 
 ---
 
