@@ -43,7 +43,7 @@
     
       <text x="20" y="92" class="label">Dart</text>
       <rect class="bar round" x="120" y="80" width="95" height="12" />
-      <text x="225" y="92" class="value">12.7%</text>
+      <text x="225" y="92" class="value">12.6%</text>
     
       <text x="20" y="116" class="label">TypeScript</text>
       <rect class="bar round" x="120" y="104" width="43" height="12" />
