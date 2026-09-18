@@ -46,8 +46,8 @@
       <text x="224" y="92" class="value">12.5%</text>
     
       <text x="20" y="116" class="label">TypeScript</text>
-      <rect class="bar round" x="120" y="104" width="48" height="12" />
-      <text x="178" y="116" class="value">6.4%</text>
+      <rect class="bar round" x="120" y="104" width="49" height="12" />
+      <text x="179" y="116" class="value">6.4%</text>
     
       <text x="20" y="140" class="label">TeX</text>
       <rect class="bar round" x="120" y="128" width="17" height="12" />
