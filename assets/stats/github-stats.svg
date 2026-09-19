@@ -35,15 +35,15 @@
   
     <text x="20" y="30" class="title">GitHub Summary — Kynmmarshall</text>
     <text x="20" y="60" class="label">Followers</text>
-    <text x="140" y="60" class="value">12</text>
+    <text x="140" y="60" class="value">13</text>
 
     <text x="20" y="85" class="label">Public repos</text>
     <text x="140" y="85" class="value">57</text>
 
     <text x="260" y="60" class="label">Total stars</text>
-    <text x="380" y="60" class="value">212</text>
+    <text x="380" y="60" class="value">269</text>
 
     <text x="260" y="85" class="label">Total contributions (last year)</text>
-    <text x="560" y="85" class="value">2348</text>
+    <text x="560" y="85" class="value">2349</text>
   
 </svg>
