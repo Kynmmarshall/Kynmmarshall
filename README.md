@@ -26,8 +26,7 @@
 ## 🧰 Tech Snapshot
 <p align="left">
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flut## 🧰 Tech Snapshot
-<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&logo=javascript" />
@@ -59,6 +58,22 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
+
+---
+
+## 📱 Apps, Web Apps & Platforms
+
+Beyond games, I build mobile apps, web apps, and backend services with a focus on clean architecture and polished UI/UX.
+
+| Area | Technologies | Focus |
+| --- | --- | --- |
+| Mobile & cross-platform | Flutter, Dart, Swift | Cross-platform applications, native modules, and user-centric interfaces |
+| Frontend | React, TypeScript, JavaScript, HTML5, CSS3 | Interactive web interfaces and polished user experiences |
+| Backend & APIs | Node.js, Python, Django, FastAPI, Flask | Backend services and API development |
+| Databases | MySQL, PostgreSQL | Relational data storage, secure database setup, and backups |
+| Platforms & delivery | Docker, Kubernetes, VPS, Jenkins, GitHub Actions | Hosting, service deployment, and CI/CD pipelines |
+
+[Explore my apps and projects →](https://kynmmarshall.is-a.dev)
 
 ---
 
