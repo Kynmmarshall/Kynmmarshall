@@ -22,17 +22,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
 
-      - name: Create assets dir
-        run: mkdir -p assets/stats
+      - name: Install github-readme-stats (pinned)
+        run: |
+          git clone https://github.com/anuraghazra/github-readme-stats "$RUNNER_TEMP/grs"
+          git -C "$RUNNER_TEMP/grs" checkout 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+          npm ci --omit=dev --ignore-scripts --prefix "$RUNNER_TEMP/grs"
 
       - name: Generate stats SVGs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: add a classic PAT (read:user, repo) as GH_STATS_TOKEN to include private contributions
+          PAT_1: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_USER: Kynmmarshall
-        run: |
-          node .github/tools/generate_stats.js
+          GRS_DIR: ${{ runner.temp }}/grs
+        run: node .github/tools/render_stats_cards.js
 
       - name: Commit and push generated SVGs if changed
         run: |

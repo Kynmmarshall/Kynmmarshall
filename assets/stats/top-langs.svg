@@ -1,60 +1,307 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="720" height="198" viewBox="0 0 720 198" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleDesc">
-  <title id="titleDesc">GitHub stats</title>
-  <style>
-    /* Default (light) theme variables */
-    :root{
-      --bg: transparent;
-      --title: #0f172a;   /* dark title for light background */
-      --label: #4b5563;   /* muted label for light background */
-      --value: #0f172a;   /* dark values for light background */
-      --bar: #2b8be6;     /* bar color for light theme */
-      --bar-accent: #1d4ed8;
-    }
 
-    /* Dark theme overrides */
-    @media (prefers-color-scheme: dark) {
-      :root{
-        --bg: transparent;
-        --title: #ffffff;  /* white for dark background */
-        --label: #d1d5db;  /* light gray for dark background */
-        --value: #ffffff;  /* white values for dark background */
-        --bar: #60a5fa;    /* lighter blue for dark theme */
-        --bar-accent: #3b82f6;
+      <svg
+        width="495"
+        height="215"
+        viewBox="0 0 495 215"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #ffffff;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
       }
     }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .bold { font-weight: 700 }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #c9d1d9;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
+    
 
-    svg { background: var(--bg); }
-    .title{ font: 700 20px 'Segoe UI', Roboto, Arial; fill: var(--title); }
-    .label{ font: 600 14px 'Segoe UI', Roboto, Arial; fill: var(--label); }
-    .value{ font: 700 18px 'Segoe UI', Roboto, Arial; fill: var(--value); }
-    .bar { fill: var(--bar); }
-    .bar-accent { fill: var(--bar-accent); }
-    rect.round { rx: 3; ry: 3; }
-  </style>
-  <text x="20" y="24" class="title">Top Languages</text>
-      <text x="20" y="44" class="label">Python</text>
-      <rect class="bar round" x="120" y="32" width="400" height="12" />
-      <text x="530" y="44" class="value">52.3%</text>
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
     
-      <text x="20" y="68" class="label">HTML</text>
-      <rect class="bar round" x="120" y="56" width="135" height="12" />
-      <text x="265" y="68" class="value">17.7%</text>
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="494"
+          fill="#151515"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >My Programming Languages</text>
+    </g>
+      </g>
     
-      <text x="20" y="92" class="label">Dart</text>
-      <rect class="bar round" x="120" y="80" width="94" height="12" />
-      <text x="224" y="92" class="value">12.3%</text>
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <svg data-testid="lang-items" x="25">
+      
+  
+      <mask id="rect-mask">
+          <rect x="0" y="0" width="445" height="8" fill="white" rx="5"/>
+        </mask>
+        
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="240.25"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="240.25"
+          y="0"
+          width="85.54"
+          height="8"
+          fill="#e34c26"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="325.79"
+          y="0"
+          width="60.24"
+          height="8"
+          fill="#00B4AB"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="386.03000000000003"
+          y="0"
+          width="16.84"
+          height="8"
+          fill="#3D6117"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="402.87"
+          y="0"
+          width="14.5"
+          height="8"
+          fill="#3178c6"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="417.37"
+          y="0"
+          width="17.990000000000002"
+          height="8"
+          fill="#f34b7d"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="425.36"
+          y="0"
+          width="15.9"
+          height="8"
+          fill="#555555"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="431.26"
+          y="0"
+          width="15.34"
+          height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="436.59999999999997"
+          y="0"
+          width="15.04"
+          height="8"
+          fill="#663399"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="441.64"
+          y="0"
+          width="13.35"
+          height="8"
+          fill="#DA3434"
+        />
+      
+      
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Python 53.99%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        HTML 19.22%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#00B4AB" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Dart 13.54%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#3D6117" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TeX 3.78%
+      </text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms">
+      <circle cx="5" cy="6" r="5" fill="#3178c6" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TypeScript 3.26%
+      </text>
+    </g>
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        C++ 1.80%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#555555" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        C 1.33%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JavaScript 1.20%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#663399" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CSS 1.13%
+      </text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms">
+      <circle cx="5" cy="6" r="5" fill="#DA3434" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CMake 0.75%
+      </text>
+    </g>
+  </g></g>
+    </g>
+  
+    </svg>
+  
+        </g>
+      </svg>
     
-      <text x="20" y="116" class="label">TypeScript</text>
-      <rect class="bar round" x="120" y="104" width="49" height="12" />
-      <text x="179" y="116" class="value">6.3%</text>
-    
-      <text x="20" y="140" class="label">TeX</text>
-      <rect class="bar round" x="120" y="128" width="27" height="12" />
-      <text x="157" y="140" class="value">3.5%</text>
-    
-      <text x="20" y="164" class="label">C++</text>
-      <rect class="bar round" x="120" y="152" width="14" height="12" />
-      <text x="144" y="164" class="value">1.8%</text>
-    
-</svg>

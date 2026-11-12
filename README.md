@@ -150,23 +150,15 @@ Beyond games, I build mobile apps, web apps, and backend services with a focus o
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img alt="My GitHub Statistics" src="https://github-readme-stats.vercel.app/api?username=Kynmmarshall&show_icons=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered&custom_title=My%20GitHub%20Statistics&card_width=495&bg_color=151515&title_color=4682b4&text_color=8ec5e8&icon_color=4682b4&ring_color=4682b4&border_color=e4e2e2" />
+  <img alt="My GitHub Statistics" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" />
 </p>
 
 <p align="center">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Kynmmarshall&hide_border=true&background=151515&ring=00bfff&fire=00bfff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00bfff&sideLabels=ffffff&dates=9e9e9e" />
+  <img alt="GitHub Streak" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" />
 </p>
 
 <p align="center">
-  <img alt="My Programming Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kynmmarshall&layout=compact&langs_count=10&custom_title=My%20Programming%20Languages&card_width=495&bg_color=151515&title_color=ffffff&text_color=c9d1d9&border_color=e4e2e2" />
-</p>
-
-<p align="center">
-  <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=Kynmmarshall&theme=darkhub&column=7&margin-w=10&margin-h=10&no-frame=true" />
-</p>
-
-<p align="center">
-  <img alt="Contribution Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Kynmmarshall&bg_color=151515&color=8ec5e8&line=4682b4&point=ffffff&area=true&area_color=4682b4&hide_border=true" />
+  <img alt="My Programming Languages" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" />
 </p>
 
 ## Contribution Graph (Animated)
