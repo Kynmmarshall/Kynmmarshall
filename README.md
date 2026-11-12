@@ -147,12 +147,18 @@ Beyond games, I build mobile apps, web apps, and backend services with a focus o
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/github-stats.svg" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" alt="Top Languages" />
-  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/streak.svg" alt="GitHub Streak" />
+  <img alt="My GitHub Statistics" src="https://github-readme-stats.vercel.app/api?username=Kynmmarshall&count_private=true&custom_title=My%20GitHub%20Statistics&card_width=495&bg_color=151515&title_color=4682b4&text_color=8ec5e8&ring_color=4682b4&border_color=e4e2e2" />
+</p>
+
+<p align="center">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=Kynmmarshall&hide_border=true&background=151515&ring=00bfff&fire=00bfff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00bfff&sideLabels=ffffff&dates=9e9e9e" />
+</p>
+
+<p align="center">
+  <img alt="My Programming Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kynmmarshall&layout=compact&langs_count=8&custom_title=My%20Programming%20Languages&card_width=495&bg_color=151515&title_color=ffffff&text_color=c9d1d9&border_color=e4e2e2" />
 </p>
 
 ## Contribution Graph (Animated)
