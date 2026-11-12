@@ -14,7 +14,7 @@
 ## Profile View
 
 <p align="center">
-  <img alt="Profile View" src="https://count.getloli.com/get/@Kynmmarshall?theme=booru-twifanartsfw&length=7" />
+  <img alt="Profile View" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/profile-views/profile-views.svg" />
 </p>
 
 ---
