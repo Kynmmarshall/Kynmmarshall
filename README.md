@@ -181,15 +181,6 @@ Beyond games, I build mobile apps, web apps, and backend services with a focus o
 
 ---
 
-## What I’m Building Next
-
-- Production-ready Flutter apps with native modules (Flame where appropriate).
-- Clean, testable backend services in Node.js.
-- Performance-oriented C++ modules and graphics exploration.
-- Continual improvement of developer experience with robust tooling and automation.
-
----
-
 ## Contact
 
 - Email: kynmmarshall@gmail.com
