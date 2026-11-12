@@ -11,6 +11,14 @@
 
 ---
 
+## Profile View
+
+<p align="center">
+  <img alt="Profile View" src="https://count.getloli.com/get/@Kynmmarshall?theme=booru-twifanartsfw&length=7" />
+</p>
+
+---
+
 ## About Me
 
 - Passionate software engineer focused on building performant, user-centric applications across mobile, web, backend, and games.
