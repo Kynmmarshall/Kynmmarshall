@@ -12,6 +12,11 @@ permissions:
 jobs:
   build-and-commit:
     runs-on: ubuntu-latest
+    env:
+      # Needs a PAT: the default GITHUB_TOKEN cannot read stars/languages of your other repos.
+      # Create a token with read:user (add repo to include private contributions) and
+      # save it as the repository secret GH_STATS_TOKEN.
+      HAS_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,26 +24,33 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
 
+      - name: Warn if GH_STATS_TOKEN is missing
+        if: env.HAS_STATS_TOKEN != 'true'
+        run: echo "::warning::Secret GH_STATS_TOKEN is not set, so the stats SVGs were not refreshed."
+
       - name: Setup Node.js
+        if: env.HAS_STATS_TOKEN == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Install github-readme-stats (pinned)
+        if: env.HAS_STATS_TOKEN == 'true'
         run: |
           git clone https://github.com/anuraghazra/github-readme-stats "$RUNNER_TEMP/grs"
           git -C "$RUNNER_TEMP/grs" checkout 54a7985aeefda00d5eadb55b80c17c7f976c37d2
           npm ci --omit=dev --ignore-scripts --prefix "$RUNNER_TEMP/grs"
 
       - name: Generate stats SVGs
+        if: env.HAS_STATS_TOKEN == 'true'
         env:
-          # Optional: add a classic PAT (read:user, repo) as GH_STATS_TOKEN to include private contributions
-          PAT_1: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.GH_STATS_TOKEN }}
           GITHUB_USER: Kynmmarshall
           GRS_DIR: ${{ runner.temp }}/grs
         run: node .github/tools/render_stats_cards.js
 
       - name: Commit and push generated SVGs if changed
+        if: env.HAS_STATS_TOKEN == 'true'
         run: |
           git config user.name "Kynmmarshall"
           git config user.email "kynmmarshall@gmail.com"
