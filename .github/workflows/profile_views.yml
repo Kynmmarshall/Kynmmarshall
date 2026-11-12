@@ -1,0 +1,41 @@
+name: Generate Profile Views Counter
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render profile views SVG
+        env:
+          GITHUB_USER: Kynmmarshall
+        run: node .github/tools/render_profile_views.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Kynmmarshall"
+          git config user.email "kynmmarshall@gmail.com"
+          git add assets/profile-views/profile-views.svg
+          if git diff --cached --quiet; then
+            echo "No changes to profile views image"
+          else
+            git commit -m "chore(views): update profile views counter [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
