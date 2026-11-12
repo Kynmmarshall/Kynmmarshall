@@ -158,7 +158,11 @@ Beyond games, I build mobile apps, web apps, and backend services with a focus o
 ## Contribution Graph (Animated)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/contributions-dark.svg" alt="Contribution Snake (Dark)" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/output/pacman-contribution-graph.svg">
+  </picture>
 </p>
 
 ---
