@@ -169,7 +169,7 @@ Beyond games, I build mobile apps, web apps, and backend services with a focus o
   <img alt="My Programming Languages" src="https://raw.githubusercontent.com/Kynmmarshall/Kynmmarshall/main/assets/stats/top-langs.svg" />
 </p>
 
-## Contribution Graph (Animated)
+## Contribution Graph (Pacman)
 
 <p align="center">
   <picture>
